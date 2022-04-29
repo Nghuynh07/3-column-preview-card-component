@@ -1,0 +1,115 @@
+@use "base.scss" as *;
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 5rem;
+  color: $color-bright-orange;
+  font-size: 1.2rem;
+  a {
+    color: $color-dark-cyan;
+    opacity: 0.6;
+    letter-spacing: 0.1rem;
+  }
+}
+
+.container {
+  min-height: 100vh;
+  background-color: $color-bright-gray;
+
+  display: grid;
+  place-content: center;
+
+  .components {
+    max-width: 100rem;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 10px;
+    .component {
+      padding: 5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 33.33rem;
+      &-1 {
+        background-color: $color-bright-orange;
+      }
+      &-2 {
+        background-color: $color-cyan;
+      }
+      &-3 {
+        background-color: $color-dark-cyan;
+      }
+
+      &-title {
+        color: $color-transparent-white;
+        font-family: "Big Shoulders Display", cursive;
+        font-size: 4rem;
+        text-transform: uppercase;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        letter-spacing: 0.1rem;
+      }
+
+      &-text {
+        font-size: 1.5rem;
+        color: $color-transparent-white;
+        font-family: "Lexend Deca", sans-serif;
+        line-height: 1.6;
+        word-spacing: 0.2rem;
+        margin-bottom: 8rem;
+      }
+
+      &-btn {
+        font-size: 1.5rem;
+        padding: 1.5rem;
+        display: inline-block;
+        max-width: 15rem;
+        border-radius: 10rem;
+        letter-spacing: 0.1rem;
+        font-weight: 600;
+        background-color: $color-bright-gray;
+        border: 2px solid $color-transparent-white;
+        transition: border 0.2s, color 0.2s, background-color 0.2s;
+        cursor: pointer;
+        &:hover {
+          background-color: transparent;
+          color: $color-transparent-white;
+          border: 2px solid $color-transparent-white;
+        }
+        &-1 {
+          color: $color-transparent-white;
+          background-color: $color-bright-orange;
+        }
+        &-2 {
+          // color: $color-cyan;
+          color: $color-transparent-white;
+          background-color: $color-cyan;
+        }
+        &-3 {
+          // color: $color-dark-cyan;
+          color: $color-transparent-white;
+          background-color: $color-dark-cyan;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1040px) {
+  .container {
+    margin: 5rem 3rem;
+  }
+  .components {
+    flex-wrap: wrap;
+  }
+  .component {
+    flex: 33.33rem;
+
+    &-text {
+      margin-bottom: 2rem;
+    }
+  }
+}

@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 5rem;
+  color: hsl(31deg, 77%, 52%);
+  font-size: 1.2rem;
+}
+.attribution a {
+  color: hsl(179deg, 100%, 13%);
+  opacity: 0.6;
+  letter-spacing: 0.1rem;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: hsl(0deg, 0%, 95%);
+  display: grid;
+  place-content: center;
+}
+.container .components {
+  max-width: 100rem;
+  display: flex;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 10px;
+}
+.container .components .component {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 33.33rem;
+}
+.container .components .component-1 {
+  background-color: hsl(31deg, 77%, 52%);
+}
+.container .components .component-2 {
+  background-color: hsl(184deg, 100%, 22%);
+}
+.container .components .component-3 {
+  background-color: hsl(179deg, 100%, 13%);
+}
+.container .components .component-title {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  letter-spacing: 0.1rem;
+}
+.container .components .component-text {
+  font-size: 1.5rem;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1.6;
+  word-spacing: 0.2rem;
+  margin-bottom: 8rem;
+}
+.container .components .component-btn {
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  display: inline-block;
+  max-width: 15rem;
+  border-radius: 10rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  background-color: hsl(0deg, 0%, 95%);
+  border: 2px solid hsla(0deg, 0%, 100%, 0.75);
+  transition: border 0.2s, color 0.2s, background-color 0.2s;
+  cursor: pointer;
+}
+.container .components .component-btn:hover {
+  background-color: transparent;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  border: 2px solid hsla(0deg, 0%, 100%, 0.75);
+}
+.container .components .component-btn-1 {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  background-color: hsl(31deg, 77%, 52%);
+}
+.container .components .component-btn-2 {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  background-color: hsl(184deg, 100%, 22%);
+}
+.container .components .component-btn-3 {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  background-color: hsl(179deg, 100%, 13%);
+}
+
+@media (max-width: 1040px) {
+  .container {
+    margin: 5rem 3rem;
+  }
+
+  .components {
+    flex-wrap: wrap;
+  }
+
+  .component {
+    flex: 33.33rem;
+  }
+  .component-text {
+    margin-bottom: 2rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
