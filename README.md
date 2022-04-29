@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Nghuynh07/Interactive_Rating_Component)
+- Solution URL: [Add solution URL here](https://github.com/Nghuynh07/3-column-preview-card-component)
 - Live Site URL: [Add live site URL here](https://6268d9933f323459f88242f7--glowing-strudel-c28f1b.netlify.app/)
 
 ### Built with

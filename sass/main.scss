@@ -71,7 +71,7 @@
         letter-spacing: 0.1rem;
         font-weight: 600;
         background-color: $color-bright-gray;
-        border: 2px solid $color-transparent-white;
+        border: 2px solid transparent;
         transition: border 0.2s, color 0.2s, background-color 0.2s;
         cursor: pointer;
         &:hover {
@@ -80,18 +80,13 @@
           border: 2px solid $color-transparent-white;
         }
         &-1 {
-          color: $color-transparent-white;
-          background-color: $color-bright-orange;
+          color: $color-bright-orange;
         }
         &-2 {
-          // color: $color-cyan;
-          color: $color-transparent-white;
-          background-color: $color-cyan;
+          color: $color-cyan;
         }
         &-3 {
-          // color: $color-dark-cyan;
-          color: $color-transparent-white;
-          background-color: $color-dark-cyan;
+          color: $color-dark-cyan;
         }
       }
     }

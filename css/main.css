@@ -83,7 +83,7 @@ html {
   letter-spacing: 0.1rem;
   font-weight: 600;
   background-color: hsl(0deg, 0%, 95%);
-  border: 2px solid hsla(0deg, 0%, 100%, 0.75);
+  border: 2px solid transparent;
   transition: border 0.2s, color 0.2s, background-color 0.2s;
   cursor: pointer;
 }
@@ -93,16 +93,13 @@ html {
   border: 2px solid hsla(0deg, 0%, 100%, 0.75);
 }
 .container .components .component-btn-1 {
-  color: hsla(0deg, 0%, 100%, 0.75);
-  background-color: hsl(31deg, 77%, 52%);
+  color: hsl(31deg, 77%, 52%);
 }
 .container .components .component-btn-2 {
-  color: hsla(0deg, 0%, 100%, 0.75);
-  background-color: hsl(184deg, 100%, 22%);
+  color: hsl(184deg, 100%, 22%);
 }
 .container .components .component-btn-3 {
-  color: hsla(0deg, 0%, 100%, 0.75);
-  background-color: hsl(179deg, 100%, 13%);
+  color: hsl(179deg, 100%, 13%);
 }
 
 @media (max-width: 1040px) {
