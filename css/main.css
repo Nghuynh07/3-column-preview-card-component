@@ -102,7 +102,7 @@ html {
   color: hsl(179deg, 100%, 13%);
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 500px) {
   .container {
     margin: 5rem 3rem;
   }
@@ -112,7 +112,7 @@ html {
   }
 
   .component {
-    flex: 33.33rem;
+    flex: 33.33%;
   }
   .component-text {
     margin-bottom: 2rem;
