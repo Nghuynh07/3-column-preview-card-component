@@ -59,7 +59,7 @@ html {
 }
 .container .components .component-title {
   color: hsla(0deg, 0%, 100%, 0.75);
-  font-family: "Big Shoulders Display", cursive;
+  font-family: "Big Shoulders Display", sans-serif;
   font-size: 4rem;
   text-transform: uppercase;
   margin-top: 3rem;

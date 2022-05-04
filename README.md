@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Nghuynh07/3-column-preview-card-component)
-- Live Site URL: [Add live site URL here](https://6268d9933f323459f88242f7--glowing-strudel-c28f1b.netlify.app/)
+- Live Site URL: [Add live site URL here](https://phenomenal-valkyrie-738185.netlify.app/)
 
 ### Built with
 
